@@ -1,2 +1,2 @@
 say_hello:
-	echo "HELLO WORLD!"
+	@echo "HELLO WORLD!"
