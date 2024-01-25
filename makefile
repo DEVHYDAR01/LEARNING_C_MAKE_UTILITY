@@ -1,4 +1,4 @@
-.DEFAULT_GOAL:= generate
+all: say_hello generate clean
 
 say_hello:
 	@echo "HELLO WORLD!"
