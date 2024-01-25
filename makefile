@@ -1,8 +1,10 @@
+.DEFAULT_GOAL:= generate
+
 say_hello:
-	@echo "Hello World!"
+	@echo "HELLO WORLD!"
 
 generate:
-	@echo "generating empty text files..."
+	@echo "Creating empty text files..."
 	touch file-{1..10}.txt
 
 clean:
