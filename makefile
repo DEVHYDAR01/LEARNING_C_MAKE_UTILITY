@@ -1,7 +1,9 @@
-all: say_hello generate clean
+.PHONY: all say_hello generate clean
+
+all: say_hello generate
 
 say_hello:
-	@echo "HELLO WORLD!"
+	@echo "Hello World"
 
 generate:
 	@echo "Creating empty text files..."
